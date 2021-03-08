@@ -46,7 +46,7 @@ function addItemToCart(title, imageSrc) {
     var cartRowContents = `
         <div class="cart-item cart-column">
             <img class="cart-item-image" src="${imageSrc}" width="70" height="100">
-            <span class="cart-item-title">${title}</span>
+            <span class="cart-item-title"><pre>     ${title}</pre></span>
         </div><div>
             <button class="btn btn-danger" type="button">REMOVE</button>
 			</div>
