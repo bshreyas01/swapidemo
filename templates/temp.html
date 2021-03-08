@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../static/css/styles.css" />
+</head>
+<body background="https://wallpaperaccess.com/full/188646.jpg">
+{%for i in range(0, len)%} 
+  
+	<img class="shop-item-image" src="{{ pi[i] }}">
+    <h1>Name:</h1>{{ name[i] }}
+    <h1>Height:</h1>{{ height[i] }}
+    <h1>Mass:</h1>{{ mass[i] }}
+    <h1>Hair:</h1>{{ hair_color[i] }}
+    <h1>Eye:</h1>{{ eye_color[i] }}
+    <h1>Skin:</h1>{{ skin_color[i] }}
+    <h1>Gender:</h1>{{ gender[i] }}
+    <h1>Birth Year:</h1>{{ birth_year[i] }}
+	<br><hr><hr>
+  
+{%endfor%} 
+
+</body>
+</html>
